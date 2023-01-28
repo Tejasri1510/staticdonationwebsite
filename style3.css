@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+   
+    background-image:url("loginpic2.jpg");
+    background-position:center;
+    background-size:cover;
+    height:150vh;
+}
+.main{
+    width:300px;
+    height:600px;
+    color:#fff;
+    background:linear-gradient(to top ,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%);
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    padding: 40px,25px;
+    border-radius: 10px;
+}
+.main h1{
+    color:green;
+    text-align:center;
+    margin:20px;
+}
+.main input{
+    width:90%;
+    height:35px;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    background: transparent;
+    padding-top:5px;
+    margin-bottom:20px;
+    margin-left:15px;
+    border-bottom:1px solid white;
+    color:#fff;
+    font-size:10px;
+}
+.main  label{
+    margin-left:15px;
+}
+.main input[type="submit"]{
+    color:green;
+    background-color: #fff;
+    font-size:20px;
+    margin-top:5px;
+}
+.main input[type="submit"]:hover{
+    background-color:green;
+    color:white;
+}
+.main input[type="text"]{
+    font-size:15px;
+}
+
+
+
